@@ -9,7 +9,7 @@ If this script helped you in any way, please contribute some feedback. BTC donat
 **Have fun, this is crypto after all!**
 
 ```
-BTC  1M8e7hc92g7abm3cH9wdsWiCtUsQo2wXPE
+BTC  18ShS9GAMpYbaEbDfNMmqtHV6orDv1A9yW
 ```
 
 
@@ -56,47 +56,47 @@ Comparing with building from source manually, you will benefit from using this s
 SSH to your VPS and clone the Github repository:
 
 ```bash
-git clone https://github.com/CryptoCashBack-Hub/Advanced-Install.git && cd vps
+git clone https://github.com/AbacusCoin/Advanced-Install.git && cd vps
 ```
 
 Install & configure your desired master node with options:
 
 ```bash
-./install.sh -p ccbc
+./install.sh -p aba
 ```
 
 ## Examples for typical script invocation
 
 These are only a couple of examples for typical setups. Check my [easy step-by-step guide for [vultr](/docs/masternode_vps.md) that will guide you through the hardest parts.
 
-**Install & configure 4 PIVX masternodes:**
+**Install & configure 4 ABA masternodes:**
 
 ```bash
-./install.sh -p ccbc -c 4
+./install.sh -p aba -c 4
 ```
 
-**Update daemon of previously installed CCBC masternodes:**
+**Update daemon of previously installed ABA masternodes:**
 
 ```bash
-./install.sh -p ccbc -u
+./install.sh -p aba -u
 ```
 
 **Install 6 CCBC masternodes with the git release tag "tags/v1.0.0.4"**
 
 ```bash
-./install.sh -p ccbc -c 6 -r "tags/v1.0.0.4"
+./install.sh -p aba -c 6 -r "tags/v1.0.0.1"
 ```
 
-**Wipe all CCBC masternode data:**
+**Wipe all ABA masternode data:**
 
 ```bash
-./install.sh -p ccbc -w
+./install.sh -p aba -w
 ```
 
-**Install 2 CCBC masternodes and configure sentinel monitoring:**
+**Install 2 ABA masternodes and configure sentinel monitoring:**
 
 ```bash
-./install.sh -p ccbc -c 2 -s
+./install.sh -p aba -c 2 -s
 ```
 
 ## Options
@@ -105,7 +105,7 @@ The _install.sh_ script support the following parameters:
 
 | Long Option  | Short Option | Values              | description                                                         |
 | :----------- | :----------- | ------------------- | ------------------------------------------------------------------- |
-| --project    | -p           | project, e.g. "ccbc"| shortname for the project                                           |
+| --project    | -p           | project, e.g. "aba" | shortname for the project                                           |
 | --net        | -n           | "4" / "6"           | ip type for masternode. (ipv)6 is default                           |
 | --release    | -r           | e.g. "tags/v1.0.0.2"| a specific git tag/branch, defaults to latest tested                |
 | --count      | -c           | number              | amount of masternodes to be configured                              |
@@ -120,7 +120,7 @@ The _install.sh_ script support the following parameters:
 If you want to check the status of your masternode, the best way is currently running the cli e.g. for $MUE via
 
 ```
-/usr/local/bin/ccbc-cli -conf=/etc/masternodes/ccbc_n1.conf getinfo
+/usr/local/bin/aba-cli -conf=/etc/masternodes/aba_n1.conf getinfo
 
 {
     "version" : 1000004,
@@ -166,7 +166,7 @@ If this script helped you in any way, please contribute some feedback. BTC donat
 **Have fun, this is crypto after all!**
 
 ```
-BTC  33ENWZ9RCYBG7nv6ac8KxBUSuQX64Hx3x3
+BTC  18ShS9GAMpYbaEbDfNMmqtHV6orDv1A9yW
 ```
 
 ## Management script (not yet implemented)
@@ -198,5 +198,5 @@ Ping me at contact@marsmenschen.com for questions and send some crypto my way if
 **Have fun, this is crypto after all!**
 
 ```
-BTC  1M8e7hc92g7abm3cH9wdsWiCtUsQo2wXPE
+BTC  18ShS9GAMpYbaEbDfNMmqtHV6orDv1A9yW
 ```
