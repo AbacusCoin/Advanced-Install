@@ -173,14 +173,14 @@ BTC  18ShS9GAMpYbaEbDfNMmqtHV6orDv1A9yW
 
 The management script release will follow within the next couple of days.
 
-| command                               | description                                  |
-| :------------------------------------ | -------------------------------------------- |
-| nodemaster start ccbc (all\|number)   | start all or a specific pivx masternode(s)   |
-| nodemaster restart ccbc (all\|number) | stop all or a specific pivx masternode(s)    |
-| nodemaster stop ccbc (all\|number)    | restart all or a specific pivx masternode(s) |
-| nodemaster cleanup ccbc (all\|number) | delete chain data for all pivx masternodes   |
-| nodemaster status ccbc (all\|number)  | systemd process status for a pivx masternode |
-| nodemaster tail ccbc (all\|number)    | tail debug logs for a pivx masternode        |
+| command                               | description                                 |
+| :------------------------------------ | --------------------------------------------|
+| nodemaster start aba (all\|number)    | start all or a specific aba masternode(s)   |
+| nodemaster restart aba (all\|number)  | stop all or a specific aba masternode(s)    |
+| nodemaster stop aba (all\|number)     | restart all or a specific aba masternode(s) |
+| nodemaster cleanup aba (all\|number)  | delete chain data for all aba masternodes   |
+| nodemaster status aba (all\|number)   | systemd process status for a aba masternode |
+| nodemaster tail aba (all\|number)     | tail debug logs for a aba masternode        |
 
 # Todo
 
